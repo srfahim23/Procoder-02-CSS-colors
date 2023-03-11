@@ -1,0 +1,18 @@
+h1{
+    color: orange;
+}
+h2{
+    background-color: greenyellow;
+    padding: 10px;
+
+}
+p{
+    color: rgb(172, 172, 231);
+    background-color: rgb(133, 112, 209);
+    padding: 10px;
+}
+h1, h2, p{
+  display: flex;   /*this is require for update css3 */
+  /* align-items: center; */
+  justify-content: center;
+}
